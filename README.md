@@ -34,6 +34,7 @@ The project follows a full data science workflow:
   - K-Nearest Neighbors
   - Multilayer Perceptron (MLP)
 - Model interpretation using:
+  - SHAP
   - Permutation importance
   - Partial dependence plots
 - Forecasting maternal mortality to 2030 under multiple scenarios
