@@ -40,7 +40,7 @@ The project follows a full data science workflow:
 - Causality analysis using fixed-effects panel regression
 
 ## Key Findings
-- Support Vector Regression (SVR) achieved the best predictive performance among the models tested.
+- Support Vector Regression (SVR) was surpassed by Random Forest in which it achieved the best predictive performance among the models tested.
 - Fertility rate and GDP per capita emerged as the most influential predictors of maternal mortality.
 - Development progress scenarios produced the strongest projected reductions in maternal mortality by 2030.
 - Climate stress scenarios slowed progress toward the SDG 3.1 target.
@@ -57,13 +57,12 @@ MMR-MSDS-Capstone/
 │   ├── raw/
 │   ├── interim/
 │   └── processed/
+│   └── data dictionary/
 ├── notebooks/
-│   ├── 01_data_cleaning_and_merging.ipynb
-│   ├── 02_eda_and_correlation.ipynb
-│   ├── 03_model_development.ipynb
-│   ├── 04_model_interpretability.ipynb
-│   ├── 05_forecasting_and_scenarios.ipynb
-│   └── 06_panel_causality_analysis.ipynb
+│   ├── 01_data_prep_and_preprocessing.ipynb
+│   ├── 02_eda_and_feature_analysis.ipynb
+│   ├── 03_model_development_and_interpretability.ipynb
+│   ├── 04_forecasting_and_conclusions.ipynb
 ├── figures/
 ├── outputs/
 └── docs/
